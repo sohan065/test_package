@@ -1,5 +1,6 @@
 {
   "name": "sohan065/crud",
+  "version": "1.0.0",
   "description": "simple crud app",
   "license": "MIT",
   "type": "library",
