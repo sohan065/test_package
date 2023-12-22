@@ -15,9 +15,7 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {
-    "sohan065/crud": "*"
-  },
+  "require": {},
   "extra": {
     "laravel": {
       "providers": [
