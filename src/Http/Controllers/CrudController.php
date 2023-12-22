@@ -10,7 +10,7 @@ class CrudController extends Controller
 {
     public function index()
     {
-        return view('crud::index');
+        return view('crud::dashboard.pages.index');
     }
     public function create(Request $request)
     {
