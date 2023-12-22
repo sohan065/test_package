@@ -1,6 +1,6 @@
 <?php
 
-namespace Sohan\Crud;
+namespace Sohan065\Crud;
 
 use Illuminate\Support\ServiceProvider;
 

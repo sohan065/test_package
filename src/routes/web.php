@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Sohan\Crud\Http\Controllers\CrudController;
+use Sohan065\Crud\Http\Controllers\CrudController;
 
 
 Route::get('crud', [CrudController::class, 'index']);
