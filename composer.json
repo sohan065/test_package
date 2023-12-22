@@ -1,24 +1,26 @@
 {
-    "name": "sohan065/crud",
-    "description": "simple crud app",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Sohan065\\Crud\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "sohan065",
-            "email": "mdsohan065@gmail.com"
-        }
-    ],
-    "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Sohan065\\Crud\\CrudServiceProvider"
-            ]
-        }
+  "name": "sohan065/crud",
+  "description": "simple crud app",
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Sohan065\\Crud\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "sohan065",
+      "email": "mdsohan065@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sohan065\\Crud\\CrudServiceProvider"
+      ]
+    }
+  }
 }
