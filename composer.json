@@ -1,0 +1,24 @@
+{
+    "name": "sohan/crud",
+    "description": "simple crud app",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sohan\\Crud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sohan065",
+            "email": "mdsohan065@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sohan\\Crud\\CrudServiceProvider"
+            ]
+        }
+    }
+}
